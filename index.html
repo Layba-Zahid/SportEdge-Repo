@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slick Slider with Overlay</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+  
+   <link rel="stylesheet" href="style1.css">
+   <link rel="stylesheet" href="style2.css">
+  
+   
+</head>
+<body>
+      <header>
+        
+     <div class="notification-bar" id="notifyBar">
+   <p> LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /</p>
+    <a href="#">WATCH NOW</a>
+    <div class="close-btn" onclick="closeBar()"><img src="x-mark.png" alt="close"></div>
+  </div>
+      <div class="Top-nav" id="Top-nav">
+
+
+
+
+        <div class="hi">
+        <div class="logo">
+          SportEdge
+        </div>
+        <div class="hamburger" id="hamburger" >
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    </div>
+
+         <div class="right">
+        <a href="#" class="btn"><span>MEMBERSHIP</span></a>
+        <a href="#" class="btn"><span>ACCOUNT</span></a>
+      </div>
+
+       
+  </div>
+
+      </div>
+
+     
+  <div class="bottom-nav desktop-only">
+    <nav class="links">
+      <a href="#"><span>OUR TRACKS</span></a>
+      <a href="#"><span>FIND EVENTS</span></a>
+      <a href="#"><span>TRACK MAP</span></a>
+      <a href="#"><span>SHOP</span></a>
+      <a href="#"><span>ABOUT US</span></a>
+    </nav>
+    <div class="search-boxx">
+      <input type="text" placeholder="Search" class="input">
+      <button><img src="script.js"></button>
+    </div>
+  </div>
+
+
+  <div class="mobile-nav-bar">
+    <div class="mobile-nav-buttons">
+      <a href="#" class="mobile-btn1">MEMBERSHIP</a>
+      <a href="#" class="mobile-btn2">ACCOUNT</a>
+    </div>
+  </div>
+
+      
+
+
+      <div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-panel">
+    <div class="close-btn">
+      <span id="closeBtn">&times;</span>
+    </div>
+
+  
+      <div class="menu-search">
+        <input type="text" placeholder="SEARCH">
+        <button><img src="search-icon.png"></button>
+      </div>
+
+
+      <div class="mobile-menu-links">
+        <a href="#">OUR TRACKS</a>
+        <a href="#">FIND EVENTS</a>
+        <a href="#">TRACK MAP</a>
+        <a href="#">SHOP</a>
+        <a href="#">ABOUT US</a>
+      </div>
+      
+    </div>
+  </div>
+
+
+   <div class="banner">
+       <h1 class="titl">HOME PAGE</h1>
+    <div class="white-part">
+      </div>
+    <div class="contentt">
+      <p>PARTNERSHIP BY</p>
+      <img src="reebok-logo (2).png" alt="Reebok">
+    </div>
+  </div>
+
+ </header>
+
+
+
+
+
+
+ 
+<div class="hero-slider">
+  <div class="slide" style="background-image: url(zig-zag-img-1.png);">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="text">
+        <h2>GET READY FOR NEW SportEdge BANDS</h2>
+        <p>
+          SportEdge tracks all begin with a starting gate and end with a finish line, 
+          but everything in between varies from track to track. Because no two 
+          tracks are alike, this action sport keeps you on your toes wherever you are racing.
+        </p>
+      </div>
+      <div class="media">
+        <img src="video-thumbnail-img.png" alt="Shoe" />
+        <div class="play-btn">▶</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide" style="background-image: url(zig-zag-img-1.png);">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="text">
+        <h2>GET READY FOR NEW SportEdge </h2>
+        <p>
+          SportEdge tracks all begin with a starting gate and end with a finish line, 
+          but everything in between varies from track to track. Because no two 
+          tracks are alike, this action sport keeps you on your toes wherever you are racing.
+        </p>
+      </div>
+      <div class="media">
+        <img src="video-thumbnail-img.png" alt="Shoe 2" />
+        <div class="play-btn">▶</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide" style="background-image: url(zig-zag-img-1.png);">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="text">
+        <h2>GET READY FOR NEW SportEdge BANDS</h2>
+        <p>
+          SportEdge tracks all begin with a starting gate and end with a finish line, 
+          but everything in between varies from track to track. Because no two 
+          tracks are alike, this action sport keeps you on your toes wherever you are racing.
+        </p>
+      </div>
+      <div class="media">
+        <img src="video-thumbnail-img.png" alt="Shoe 3" />
+        <div class="play-btn">▶</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide" style="background-image: url(zig-zag-img-1.png);">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="text">
+        <h2>GET READY FOR NEW SportEdge BANDS</h2>
+        <p>
+           SportEdge tracks all begin with a starting gate and end with a finish line, 
+          but everything in between varies from track to track. Because no two 
+          tracks are alike, this action sport keeps you on your toes wherever you are racing.
+        </p>
+      </div>
+      <div class="media">
+        <img src="video-thumbnail-img.png" alt="Shoe 4" />
+        <div class="play-btn">▶</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<main>
+
+<div class="slider-wrapper">
+  <div class="filtering">
+    <div><img src="thubnail-slider-img (1).png" alt="Slide 1"></div>
+    <div><img src="thubnail-slider-img (1).png" alt="Slide 2"></div>
+    <div><img src="thubnail-slider-img (1).png" alt="Slide 3"></div>
+    <div><img src="thubnail-slider-img (1).png" alt="Slide 4"></div>
+    <div><img src="thubnail-slider-img (1).png" alt="Slide 5"></div>
+     <div><img src="thubnail-slider-img (1).png" alt="Slide 6"></div>
+  
+
+  </div>
+  
+ 
+  <button class="custom-prev"><img src="hero-slider-leftt-arrow (1).png" alt="Prev"></button>
+  <button class="custom-next"><img src="hero-slider-right-arrow (6).png" alt="Next"></button>
+</div>
+
+
+
+
+
+
+
+  <div class="events-container">
+        <div class="events-header">
+            EVENTS
+        </div>
+        <ul class="events-list">
+            <li class="event-item">
+                <div class="event-number">1</div>
+                <div class="event-details">
+                    <div class="event-title">SHOW IN USA</div>
+                    <div class="event-location">USA</div>
+                </div>
+            </li>
+            <li class="event-item">
+                <div class="event-number">2</div>
+                <div class="event-details">
+                    <div class="event-title">sport SHOW IN USA</div>
+                    <div class="event-location">USA</div>
+                </div>
+            </li>
+            <li class="event-item">
+                <div class="event-number">3</div>
+                <div class="event-details">
+                    <div class="event-title">SportEdge SHOW</div>
+                    <div class="event-location">USA</div>
+                </div>
+            </li>
+            <li class="event-item">
+                <div class="event-number">4</div>
+                <div class="event-details">
+                    <div class="event-title">SportEdge IN USA</div>
+                    <div class="event-location">USA</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+
+
+</main>
+
+<hr class="divider">
+
+
+
+
+
+<div class="card-container">
+  <div class="card">
+    <img src="post-img.png" alt="Card 1">
+    <h3>2019 NATIONAL CHAMPIONS CROWNED AT REEBOK</h3>
+    <p>Membership has its perks. Joining SportEdge means you can reace at your local tracks</p>
+  <div class="read-more">
+    <h3>Read More</h3>
+  </div>
+  </div>
+
+  <div class="card">
+    <img src="post-img.png" alt="Card 2">
+    <h3>2019 NATIONAL CHAMPIION</h3>
+    <p>Membership has its perks.</p>
+     <div class="readdd-more">
+      <h3>Read More</h3>
+     </div>
+  </div>
+
+  <div class="card">
+    <img src="post-img.png" alt="Card 3">
+    <h3>2019 NATIONAL CHAMPIONS CROWNED AT REEBOK</h3>
+    <p>Membership has its perks. Joining SportEdge means you can reace at your local tracks`</p>
+     <div class="read-more">
+      <h3>Read More</h3>
+     </div>
+  </div>
+</div>
+
+
+   
+  </div>
+
+
+  <div class="banner-2">
+    <div class="banner2-img">
+       <img src="zig-zag-img-1.png" alt="zig-zag">
+       </div>
+    
+    <div class="text">
+      <h2>2019 NATIONAL CHAMPIONS CROWNED AT REEBOK </h2>
+      <p> Membership has its perks. Joining SportEdge means you can reace at your local tracks</p>
+      
+    </div>
+  </div>
+
+
+
+  <div class="banner-3">
+    <div class="text">
+      <h2>2019 NATIONAL CHAMPIONS CROWNED AT REEBOK </h2>
+      <p> Membership has its perks. Joining SportEdge means you can reace at your local tracks</p>
+      
+    </div>
+    <div class="banner3-img">
+       <img src="zig-zag-img-2.png" alt="zig-zag">
+       </div>
+     </div>
+
+
+
+
+       <footer>
+    <div class="main-content">
+      
+        <div class="contact-container">
+            <h1 class="contact-title">Get In Touch With Us</h1>
+            
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="enter email">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="">Select Country</option>
+                            <option value="us">United States</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="ca">Canada</option>
+                            <option value="au">Australia</option>
+                            <option value="pk">Pakistan</option>
+                            <option value="in">India</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State</label>
+                        <select id="state" name="state">
+                            <option value="">USA</option>
+                            <option value="ca">California</option>
+                            <option value="ny">New York</option>
+                            <option value="tx">Texas</option>
+                            <option value="fl">Florida</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="gender-group">
+                    <label>Gender</label>
+                    <div class="radio-options">
+                        <div class="radio-option">
+                            <input type="radio" id="male" name="gender" value="male" checked>
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Message"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+         
+        </div>
+    </div>
+
+    <footer class="footer">
+        <nav class="footer-nav">
+            <a href="#tracks">Our Tracks</a>
+            <span>/</span>
+            <a href="#events">Find Events</a>
+            <span>/</span>
+            <a href="#map">Track Map</a>
+            <span>/</span>
+            <a href="#shop">Shop</a>
+            <span>/</span>
+            <a href="#about">About Us</a>
+        </nav>
+
+        <div class="social-icons">
+            <a href="#" class="social-icon"><img src="facebook-icon.png"></a>
+            <a href="#" class="social-icon"><img src="twitter-icon.png"></a>
+            <a href="#" class="social-icon"><img src="instagram-icon.png"></a>
+            <a href="#" class="social-icon"><img src="linkedin-icon.png"></a>
+        </div>
+
+        <div class="copyright">
+            © copyright 2020 SportEdge
+        </div>
+    </footer>
+
+
+ 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
